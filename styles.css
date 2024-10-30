@@ -1,0 +1,149 @@
+
+body{
+    text-align: center;
+    background-image: url(IMG_20240214_091155.jpg);
+    background-repeat: repeat;
+    
+    background-attachment: fixed;
+    background-position: center;
+
+}
+#asba{
+    font-weight: bold;
+    color: pink;
+}
+.test{
+    border: 10px rgb(255, 187, 152) solid;
+    border-radius: 50px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 13px 2px 11px 6px rgba(255,255,255,0.51);
+-webkit-box-shadow: 13px 2px 11px 6px rgba(255,255,255,0.51);
+-moz-box-shadow: 13px 2px 11px 6px rgba(255,255,255,0.51);
+    
+}
+
+
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0 0 20px 0; 
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background-size: 800%;
+    background-clip: text;
+    
+    -webkit-text-fill-color: transparent; 
+    animation: gradient-animation 4s ease-out infinite; 
+}
+h2{
+    font-size: 2.4rem;
+    color: rgb(47, 148, 22);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0px 17px;
+}
+
+.rules-container{
+    padding: 10px 0;
+    margin: auto;
+    border-radius: 15px;
+    border:red 5px solid ;
+    background-color: yellow;
+    color: darkblue;
+    width: 75%;
+}
+.rules-container p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin: 10px ;
+
+}
+.rules-container summary{
+    font-size: 2rem;
+
+}
+.score-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 52px;
+    font-size: 1.7rem;
+}
+.score{
+    font-weight: bold;
+    
+}
+.scoreu{
+    font-weight: bold;
+}
+.btn{
+    cursor: pointer;
+    width: 160px;
+    height: 87px ;
+    margin: 10px 27px 25px 27px;
+    color: red;
+    border-color: black;
+    border-width: 2px;
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+      
+}
+strong{
+    font-size: 2.2rem;
+}
+
+#hajra-btn {
+    background-image: url('./Shamrock-Malphite.jpg');
+    background-size: cover;
+
+}
+#Wara9a-btn{
+    background-image:url(istockphoto-1177719511-612x612.jpg) ;
+    background-size: cover;
+}
+#Mi9as-btn{
+    background-image: url(uecvfmwu3rj81.png) ;
+    background-size: cover;
+}
+#Mi9as-btn:hover{
+    background-image: url(gwen3.png);
+    background-size: 100% 100%;    
+}
+#hajra-btn:hover{
+    background-image: url(GN45c6bWwAEkPLr.jpeg);
+    background-size: cover;
+}
+#Wara9a-btn:hover{
+    background-image: url(images.jpeg);
+    background-size: 100% 100%; 
+}
+.score::before{
+    content: "\1F916";
+    margin-right:10px;
+    font-size: 1.5rem;
+}
+#replay{
+    margin: 32px auto;
+    background-image: url(15620271242110289384.gif);
+    background-size: cover;
+    height: 147px;
+    display: none;
+ 
+}
+.res-container{
+    font-size: 1.7rem;
+    font-weight: 550;
+    color: rgb(255, 86, 252);
+    margin: 64px 10px;
+
+}
